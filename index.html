@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Radio Interview Question Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Radio Interview Question Generator</h1>
+
+    <select id="category">
+      <option value="all">All Questions</option>
+      <option value="intro">Intro / Warm-Up</option>
+      <option value="creative">Music & Creativity</option>
+      <option value="process">Process & Work Ethic</option>
+      <option value="performance">Performance</option>
+      <option value="future">Future & Vision</option>
+      <option value="closing">Closing</option>
+    </select>
+
+    <div id="questionBox">
+      Click generate to get a question
+    </div>
+
+    <div class="buttons">
+      <button onclick="generateQuestion()">Generate</button>
+      <button onclick="copyQuestion()">Copy</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
